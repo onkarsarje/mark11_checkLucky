@@ -6,6 +6,7 @@ const outputBox = document.querySelector("#output-box");
 function checkBirthDateIsLucky(){
   const dob = dateOfBirth.value;
   const sum=calculateSum(dob);
+  
   if(sum && dob)
   compareValues(sum, luckyNumber.value)
   else
